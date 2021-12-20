@@ -6,7 +6,7 @@ function component(){
   const element = document.createElement('div');
   element.innerHTML = _.join(['Hello', 'webpack'], ' ');
   element.classList.add('webpack-line');
-
+  // Image added
   const icon = new Image();
   icon.src = imgIcon;
   element.appendChild(icon);
